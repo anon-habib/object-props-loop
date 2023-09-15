@@ -5,7 +5,7 @@ let shoppingCart= {
     mobile: 1,
     computer: 1,
     shampoo: 2,
-    fish: 'ilish mach'
+    fish: 'Ilish mach'
 }
 console.log(shoppingCart);
 
