@@ -25,6 +25,7 @@ let whichFish = 'fish'
 let myFish = shoppingCart[whichFish]; // this is the same as above but with variables instead of strings
 console.log(myFish);
 
+
 /* set property values  */
 shoppingCart.shampoo = 5;
 shoppingCart['books'] = 10;
@@ -38,6 +39,10 @@ console.log(allProperties);
 // accessing all values of property in an object, this returns an array
 let allValues = Object.values(shoppingCart);
 console.log(allValues);
+
+// accessing objects keys/properties and value in a pair in arrays in an array
+let pairValue = Object.entries(shoppingCart);
+console.log(pairValue);
 
 /* *********
 looping through objects to find properties and values. (long method)
