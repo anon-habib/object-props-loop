@@ -51,4 +51,10 @@ for (let i = 0; i < allProperties.length; i++){
 // to access all single values, first, access all values by Object.values (check line no 39), this returns an array, then loop the array. here allProperties is an array.
 for (let i = 0; i < allValues.length; i++){
     console.log(allValues[i]);
+};
+
+// by for...in statement
+for (let newSingleProperty /* this is  a new variable*/ in shoppingCart /* this is the object */) /* this method loops and returns every property in a string */ {
+    const newValue = shoppingCart[newSingleProperty]; // we can access values of an object by objectName['keysName'] (check line no 20) method
+    console.log(newSingleProperty, newValue) // 
 }
